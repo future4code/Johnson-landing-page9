@@ -1,24 +1,137 @@
-*{
+* {
     margin: 0;
+    border: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
-header{
-    background-color: goldenrod;
-    padding: 17px;
-    text-align: center;
+
+
+header {
+
+    background: url(./img/amigos.jpg);
+    background-size: cover; 
+    padding: 230px;
+    height: 640px;
 }
-header>a:hover{
-    color:white;
+
+
+div.container {
+    background:white;
+    max-width: 450px;
+    min-width: 60vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px black(0, 0, 0, 0.);
+    border-radius: 8px ;
+    height: 300px;
 }
-header>a{
-    color: black;
-    text-decoration: none;
+
+.formulario {
+    display: flex;
+    justify-content: flex-end;      
+    margin-left: 1000px;
+    
+}
+
+input-field {
+    position: relative;
+
+}
+
+.input-field input {
+    outline: none;
+    font-size: 0.9rem;
+    color: black(0, 0, 0, 0,7);
+}
+
+
+
+div h2 {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+form input[type="submit"] {
+
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background-color: rgb(19, 34, 53);;
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+
+}
+
+.input-field .underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: black (0, 0, 0, 0.2);
+}
+
+.container-texto {
+    display: block;
     padding: 50px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 35px;
+    
 }
-footer{
-    padding: 17px;
-    background-color:goldenrod;
+
+#segunda-secao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
-footer p{
-    color:black;
+
+.imagens-alugar {
+   padding: 60px;
+}
+
+.imagensSectionUm {
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+}
+
+main p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.imagensSectionX {
+    width: 300px;
+}
+
+footer {
+    background-color:  rgb(19, 34, 53);
+    padding: 200px;
+}
+
+section {
+    background: url(./img/04.jpg);
+    background-size: cover; 
+    padding: 200px;
+    height: 800px;
+    margin-top: 130px;
+}
+
+.penultimoContainer {
+    padding: 500px
 }
