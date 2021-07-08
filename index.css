@@ -7,19 +7,30 @@
 }
 
 
-img{
-    width: 1400px;
+header {
 
+    background: url(./img/amigos.jpg);
+    background-size: cover; 
+    padding: 230px;
+    height: 640px;
 }
 
-main.container {
+
+div.container {
     background:white;
-    max-width: 350px;
-    min-width: 40vh;
+    max-width: 450px;
+    min-width: 60vh;
     padding: 2rem;
     box-shadow: 5px 5px 15px black(0, 0, 0, 0.);
     border-radius: 8px ;
+    height: 300px;
+}
 
+.formulario {
+    display: flex;
+    justify-content: flex-end;      
+    margin-left: 1000px;
+    
 }
 
 input-field {
@@ -35,7 +46,7 @@ input-field {
 
 
 
-main h2 {
+div h2 {
     margin-bottom: 1rem;
     position: relative;
 }
@@ -44,7 +55,7 @@ form input[type="submit"] {
 
     margin-top: 2rem;
     padding: 0.4rem;
-    background-color: blue;
+    background-color: rgb(19, 34, 53);;
     cursor: pointer;
     color: white;
     font-size: 0.9rem;
@@ -72,8 +83,36 @@ form .input-field:first-child {
     background: black (0, 0, 0, 0.2);
 }
 
+.container-texto {
+    display: block;
+    padding: 50px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+#segunda-secao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.imagens-alugar {
+   padding: 60px;
+}
+
 .imagensSectionUm {
-    width: 300px;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+}
+
+main p {
+    margin-top: 15px;
+    font-size: 20px;
 }
 
 .imagensSectionX {
@@ -81,6 +120,18 @@ form .input-field:first-child {
 }
 
 footer {
-    background-color: aqua;
+    background-color:  rgb(19, 34, 53);
     padding: 200px;
+}
+
+section {
+    background: url(./img/04.jpg);
+    background-size: cover; 
+    padding: 200px;
+    height: 800px;
+    margin-top: 130px;
+}
+
+.penultimoContainer {
+    padding: 500px
 }
